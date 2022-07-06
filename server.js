@@ -13,8 +13,7 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 // Connect mongoose
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/the-social-experiment', {
-  useFindAndModify: false,
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/The-Social-Experiment', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
