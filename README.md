@@ -7,7 +7,6 @@
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#install)
-- [Utility](#utility)
 - [License](#license)
 - [Contributers](#contributers)
 - [Tests](#tests)
@@ -46,9 +45,6 @@ An application for social networking where users can share thoughts, react to th
 `npm install express`
 
 `npm install mongoose`
-
-## Usage  
-`npm start`
 
 ## License
 ![license](https://img.shields.io/badge/license-MIT-informational)
